@@ -1,25 +1,20 @@
 #{sleep_in}
 
-#####{Brief description of application}, {Date of current version}
+#####{Tells the user whether it's ok to sleep in}, {8/4/2015}
 
-####By {List of contributors}
+####By {Austin and Terry}
 
 ##Description
 
-{This is a detailed description of your application. Give as much detail as needed to explain what the application does, and any other information you'd like users or other developers to have. Do you want other developers to use this code in their apps? Talk about things like that here in simple terms.}
+{User enters a date in string format.  The system will convert it to a date and check whether it is a weekend.  Returns to user whether it's ok to sleep in.}
 
 ##Setup
 
-This is a great place
-to list setup instructions
-in a simple
-easy-to-understand
-format
-{Don't leave anything to chance! You want it to be easy for potential employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Are there other applications this app depends on?}
+{Download and run}
 
 ##Technologies Used
 
-{Tell me about the languages you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+{Ruby}
 
 ###Legal
 

@@ -9,4 +9,8 @@ describe('String#sleep_in') do
   it("tells the user they can sleep in if the date is Saturday or Sunday") do
     expect(('8/1/2015').sleep_in()).to(eq("Go ahead and sleep in, you earned it."))
   end
+
+  it("rejects a bad date") do
+    expect(('8/2015').sleep_in()).to(eq("Invalid date. Try again"))
+  end
 end
